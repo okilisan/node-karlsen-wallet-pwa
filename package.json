@@ -7,7 +7,7 @@
   "scripts": {
     "prepare": "npx webpack",
     "prepublishOnly": "rm -rf ./dist && rm -f package-lock.json && npm install --also=dev",
-    "startserver": "node pwa.js --grpc 192.168.1.30:42110 --mainnet --debug --verbose"
+    "startserver": "node pwa.js --grpc 127.0.0.1:42110 --mainnet --debug --verbose --host 0.0.0.0"
   },
   "author": "ASPECTRON Inc.",
   "license": "ISC",
