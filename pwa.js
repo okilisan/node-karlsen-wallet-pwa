@@ -407,7 +407,7 @@ class KaspaPWA extends EventEmitter {
 		const { flowHttp } = this;
 		let k = ()=> (Math.random()*100).toFixed(0);
 		let randomIP = `${k()}.${k()}.${k()}.${k()}`
-		const faucetUrl = 'https://faucet.kaspanet.io';
+		const faucetUrl = 'https://faucet.karlsencoin.com';
 		
 		let i18nEntries = this.getI18nEntries();
 		let i18nRequests = flowHttp.sockets.subscribe("get-app-i18n-entries");
@@ -492,7 +492,7 @@ class KaspaPWA extends EventEmitter {
 		const program = this.program = new Command();
 		program
 			.version('0.0.1', '--version')
-			.description('Kaspa Wallet')
+			.description('Karlsen Node Wallet')
 			.helpOption('--help','display help for command')
 			.option('--log <level>',`set log level ${logLevels.join(', ')}`, (level)=>{
 				if(!logLevels.includes(level))
