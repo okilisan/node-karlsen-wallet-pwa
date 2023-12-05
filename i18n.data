@@ -10,15 +10,15 @@
   "zh" : "PostreSQL",
   "zh_HANS" : ""
 }, {
-  "en" : "KASPAROVD",
-  "de" : "KASPAROVD",
-  "fr" : "KASPAROVD",
-  "id" : "KASPAROVD",
-  "it" : "KASPAROVD",
-  "ja" : "KASPAROVD",
-  "ko" : "KASPAROVD",
-  "pt_BR" : "KASPAROVD",
-  "zh" : "KASPAROVD",
+  "en" : "KARLSENRAKD",
+  "de" : "KARLSENRAKD",
+  "fr" : "KARLSENRAKD",
+  "id" : "KARLSENRAKD",
+  "it" : "KARLSENRAKD",
+  "ja" : "KARLSENRAKD",
+  "ko" : "KARLSENRAKD",
+  "pt_BR" : "KARLSENRAKD",
+  "zh" : "KARLSENRAKD",
   "zh_HANS" : ""
 }, {
   "en" : "Difficulty",
@@ -406,15 +406,15 @@
   "zh" : "Karlsen 钱包框架:",
   "zh_HANS" : ""
 }, {
-  "en" : "kasparovd",
-  "de" : "kasparovd",
-  "fr" : "kasparovd",
-  "id" : "kasparovd",
-  "it" : "kasparovd",
-  "ja" : "kasparovd",
-  "ko" : "kasparovd",
-  "pt_BR" : "kasparovd",
-  "zh" : "kasparovd",
+  "en" : "karlsenrakd",
+  "de" : "karlsenrakd",
+  "fr" : "karlsenrakd",
+  "id" : "karlsenrakd",
+  "it" : "karlsenrakd",
+  "ja" : "karlsenrakd",
+  "ko" : "karlsenrakd",
+  "pt_BR" : "karlsenrakd",
+  "zh" : "karlsenrakd",
   "zh_HANS" : ""
 }, {
   "en" : "Encrypt Wallet",
@@ -1055,15 +1055,15 @@
   "zh" : "软件许可证",
   "zh_HANS" : ""
 }, {
-  "en" : "kasparovsyncd",
-  "de" : "kasparovsyncd",
-  "fr" : "kasparovsyncd",
-  "id" : "kasparovsyncd",
-  "it" : "kasparovsyncd",
-  "ja" : "kasparovsyncd",
-  "ko" : "kasparovsyncd",
-  "pt_BR" : "kasparovsyncd",
-  "zh" : "kasparovsyncd",
+  "en" : "karlsenraksyncd",
+  "de" : "karlsenraksyncd",
+  "fr" : "karlsenraksyncd",
+  "id" : "karlsenraksyncd",
+  "it" : "karlsenraksyncd",
+  "ja" : "karlsenraksyncd",
+  "ko" : "karlsenraksyncd",
+  "pt_BR" : "karlsenraksyncd",
+  "zh" : "karlsenraksyncd",
   "zh_HANS" : ""
 }, {
   "en" : "Export Wallet Seed File(KPK)",
@@ -1594,15 +1594,15 @@
   "zh" : "概要",
   "zh_HANS" : ""
 }, {
-  "en" : "KASPAROVSYNCD",
-  "de" : "KASPAROVSYNCD",
-  "fr" : "KASPAROVSYNCD",
-  "id" : "KASPAROVSYNCD",
-  "it" : "KASPAROVSYNCD",
-  "ja" : "KASPAROVSYNCD",
-  "ko" : "KASPAROVSYNCD",
-  "pt_BR" : "SINCRONISARKASPAROV",
-  "zh" : "KASPAROVSYNCD",
+  "en" : "KARLSENRAKSYNCD",
+  "de" : "KARLSENRAKSYNCD",
+  "fr" : "KARLSENRAKSYNCD",
+  "id" : "KARLSENRAKSYNCD",
+  "it" : "KARLSENRAKSYNCD",
+  "ja" : "KARLSENRAKSYNCD",
+  "ko" : "KARLSENRAKSYNCD",
+  "pt_BR" : "SINCRONISARKARLSENRAK",
+  "zh" : "KARLSENRAKSYNCD",
   "zh_HANS" : ""
 }, {
   "en" : "Use latest Change address",
@@ -2089,15 +2089,15 @@
   "zh" : "高级",
   "zh_HANS" : ""
 }, {
-  "en" : "Data Folder location is used for storage by all KDX modules. In default configuration this includes Karlsend blockchain data and Kasparov API database. This location also contains process log files.",
-  "de" : "Das Datenverzeichnis wird von allen KDX Modulen als Speicherort genutzt. In der Standardkonfiguration enthält es die Karlsen Blockchain Daten und die Kasparov API Datenbank. Dieser Speicherort enthält auch Logs/Protokolle.",
-  "fr" : "Le dossier de configuration contient tous les modules KDX. La configuration par défaut contient les données de la blockchain Karlsend et la base de donnée de l'API Kasparov. Cette localisation peut également contenir des fichiers de logs.",
-  "id" : "Lokasi Folder Data digunakan untuk penyimpanan oleh semua modul KDX. Dalam konfigurasi default, ini mencakup data blockchain Karlsend dan basis data API Kasparov. Lokasi ini juga berisi file log proses.",
-  "it" : "Il percorso della cartella dati viene utilizzata da tutti i moduli KDX per l'archiviazione. Nella configurazione predefinita, sono inclusi i dati della blockchain di Karlsend e il database dell'API Kasparov. Questa cartella contiene anche i file di log del processo.",
-  "ja" : "データフォルダーの場所は、すべてのKDXモジュールによるストレージに使用されます。 デフォルトの構成では、これにはKarlsendブロックチェーンデータとKasparov APIデータベースが含まれます。 この場所には、プロセスログファイルも含まれます。",
-  "ko" : "데이터 폴더는 모든 KDX 모듈스토리지에 사용됩니다. 기본 구성에서는 Karlsend 블록체인 데이터와 Kasparov API 데이터베이스가 포함됩니다. 이 위치에는 프로세스 로그 파일도 포함됩니다.",
-  "pt_BR" : "A localização da Pasta de Dados é usada para armazenamento por todos os módulos KDX. Na configuração padrão, isso inclui os dados da blockchain do Karlsend e o banco de dados da API do Kasparov. Essa localização também contém arquivos de log de processos.",
-  "zh" : "数据文件夹位置用于存储所有的KDX模块。在默认配置中，这包括Karlsend区块链数据和Kasparov API数据库。此位置还包含进程日志文件。",
+  "en" : "Data Folder location is used for storage by all KDX modules. In default configuration this includes Karlsend blockchain data and Karlsenrak API database. This location also contains process log files.",
+  "de" : "Das Datenverzeichnis wird von allen KDX Modulen als Speicherort genutzt. In der Standardkonfiguration enthält es die Karlsen Blockchain Daten und die Karlsenrak API Datenbank. Dieser Speicherort enthält auch Logs/Protokolle.",
+  "fr" : "Le dossier de configuration contient tous les modules KDX. La configuration par défaut contient les données de la blockchain Karlsend et la base de donnée de l'API Karlsenrak. Cette localisation peut également contenir des fichiers de logs.",
+  "id" : "Lokasi Folder Data digunakan untuk penyimpanan oleh semua modul KDX. Dalam konfigurasi default, ini mencakup data blockchain Karlsend dan basis data API Karlsenrak. Lokasi ini juga berisi file log proses.",
+  "it" : "Il percorso della cartella dati viene utilizzata da tutti i moduli KDX per l'archiviazione. Nella configurazione predefinita, sono inclusi i dati della blockchain di Karlsend e il database dell'API Karlsenrak. Questa cartella contiene anche i file di log del processo.",
+  "ja" : "データフォルダーの場所は、すべてのKDXモジュールによるストレージに使用されます。 デフォルトの構成では、これにはKarlsendブロックチェーンデータとKarlsenrak APIデータベースが含まれます。 この場所には、プロセスログファイルも含まれます。",
+  "ko" : "데이터 폴더는 모든 KDX 모듈스토리지에 사용됩니다. 기본 구성에서는 Karlsend 블록체인 데이터와 Karlsenrak API 데이터베이스가 포함됩니다. 이 위치에는 프로세스 로그 파일도 포함됩니다.",
+  "pt_BR" : "A localização da Pasta de Dados é usada para armazenamento por todos os módulos KDX. Na configuração padrão, isso inclui os dados da blockchain do Karlsend e o banco de dados da API do Karlsenrak. Essa localização também contém arquivos de log de processos.",
+  "zh" : "数据文件夹位置用于存储所有的KDX模块。在默认配置中，这包括Karlsend区块链数据和Karlsenrak API数据库。此位置还包含进程日志文件。",
   "zh_HANS" : ""
 }, {
   "en" : "Cancel",
