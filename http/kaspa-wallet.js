@@ -1,1 +1,1 @@
-export * from "@kaspa/wallet";
+export * from "@karlsen/wallet";
