@@ -85,9 +85,9 @@ class KaspaPWA extends EventEmitter {
 		}
 
 		console.log('');
-		console.log('_  _ ____ ____ ___  ____    _ _ _ ____ _    _    ____ ___    ____ ____ ____ _  _ ____ ____ ');
-		console.log('|_/  |__| [__  |__] |__|    | | | |__| |    |    |___  |     [__  |___ |__/ |  | |___ |__/ ');
-		console.log('| \\_ |  | ___] |    |  |    |_|_| |  | |___ |___ |___  |     ___] |___ |  \\  \\/  |___ |  \\ ');
+		console.log('_  _ _    ____     _ _ _ ____ _    _    ____ ___    ____ ____ ____ _  _ ____ ____ ');
+		console.log('|_/  |    [__      | | | |__| |    |    |___  |     [__  |___ |__/ |  | |___ |__/ ');
+		console.log('| \\_ |___ ___]     |_|_| |  | |___ |___ |___  |     ___] |___ |  \\  \\/  |___ |  \\ ');
 		console.log('');
 
 		Wallet.setWorkerLogLevel("none");
@@ -181,7 +181,8 @@ class KaspaPWA extends EventEmitter {
 							indexHtml = data.replace(
 								`<script type="module" src="/dist/wallet-app.js"></script>`,
 								`\n${script}\n\t<script type="module" src="/dist/wallet-app.js?v=${hash}"></script>`);
-							indexHtml = indexHtml.replace('ident:"kaspa:ident"', `ident:"${hash}"`)
+							//indexHtml = indexHtml.replace('ident:"kaspa:ident"', `ident:"${hash}"`);
+							indexHtml = indexHtml.replace('ident:"karlsen:ident"', `ident:"${hash}"`);
 							//console.log(indexHtml);
 							resolve();
 						})
@@ -292,10 +293,12 @@ class KaspaPWA extends EventEmitter {
 			process.exit(1);
 		}
 
-		let network = filter.shift() || 'kaspa';
+		//let network = filter.shift() || 'kaspa';
+		let network = filter.shift() || 'karlsen';
 		let port = Wallet.networkTypes[network].port;
 		let host = this.options.grpc || `127.0.0.1:${port}`;
 
+		console.log(`Creating gRPC binding for network '${network}' at ${host}`);
 
 		//this.rpc = { }
 		log.info(`Creating gRPC binding for network '${network}' at ${host}`);
@@ -404,7 +407,7 @@ class KaspaPWA extends EventEmitter {
 		const { flowHttp } = this;
 		let k = ()=> (Math.random()*100).toFixed(0);
 		let randomIP = `${k()}.${k()}.${k()}.${k()}`
-		const faucetUrl = 'https://faucet.kaspanet.io';
+		const faucetUrl = 'https://faucet.karlsencoin.com';
 		
 		let i18nEntries = this.getI18nEntries();
 		let i18nRequests = flowHttp.sockets.subscribe("get-app-i18n-entries");
@@ -489,7 +492,7 @@ class KaspaPWA extends EventEmitter {
 		const program = this.program = new Command();
 		program
 			.version('0.0.1', '--version')
-			.description('Kaspa Wallet')
+			.description('Karlsen Node Wallet')
 			.helpOption('--help','display help for command')
 			.option('--log <level>',`set log level ${logLevels.join(', ')}`, (level)=>{
 				if(!logLevels.includes(level))
