@@ -552,7 +552,7 @@ class KarlsenPWA extends EventEmitter {
 		program.parse();
 	}
 
-	KAS(v) {
+	KLS(v) {
 		var [int,frac] = Decimal(v).mul(1e-8).toFixed(8).split('.');
 		int = int.replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 		frac = frac?.replace(/0+$/,'');
