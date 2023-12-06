@@ -10,15 +10,15 @@
   "zh" : "PostreSQL",
   "zh_HANS" : ""
 }, {
-  "en" : "KARLSENRAKD",
-  "de" : "KARLSENRAKD",
-  "fr" : "KARLSENRAKD",
-  "id" : "KARLSENRAKD",
-  "it" : "KARLSENRAKD",
-  "ja" : "KARLSENRAKD",
-  "ko" : "KARLSENRAKD",
-  "pt_BR" : "KARLSENRAKD",
-  "zh" : "KARLSENRAKD",
+  "en" : "KARLSENMAGD",
+  "de" : "KARLSENMAGD",
+  "fr" : "KARLSENMAGD",
+  "id" : "KARLSENMAGD",
+  "it" : "KARLSENMAGD",
+  "ja" : "KARLSENMAGD",
+  "ko" : "KARLSENMAGD",
+  "pt_BR" : "KARLSENMAGD",
+  "zh" : "KARLSENMAGD",
   "zh_HANS" : ""
 }, {
   "en" : "Difficulty",
@@ -406,15 +406,15 @@
   "zh" : "Karlsen 钱包框架:",
   "zh_HANS" : ""
 }, {
-  "en" : "karlsenrakd",
-  "de" : "karlsenrakd",
-  "fr" : "karlsenrakd",
-  "id" : "karlsenrakd",
-  "it" : "karlsenrakd",
-  "ja" : "karlsenrakd",
-  "ko" : "karlsenrakd",
-  "pt_BR" : "karlsenrakd",
-  "zh" : "karlsenrakd",
+  "en" : "karlsenmagd",
+  "de" : "karlsenmagd",
+  "fr" : "karlsenmagd",
+  "id" : "karlsenmagd",
+  "it" : "karlsenmagd",
+  "ja" : "karlsenmagd",
+  "ko" : "karlsenmagd",
+  "pt_BR" : "karlsenmagd",
+  "zh" : "karlsenmagd",
   "zh_HANS" : ""
 }, {
   "en" : "Encrypt Wallet",
@@ -1055,15 +1055,15 @@
   "zh" : "软件许可证",
   "zh_HANS" : ""
 }, {
-  "en" : "karlsenraksyncd",
-  "de" : "karlsenraksyncd",
-  "fr" : "karlsenraksyncd",
-  "id" : "karlsenraksyncd",
-  "it" : "karlsenraksyncd",
-  "ja" : "karlsenraksyncd",
-  "ko" : "karlsenraksyncd",
-  "pt_BR" : "karlsenraksyncd",
-  "zh" : "karlsenraksyncd",
+  "en" : "karlsenmagsyncd",
+  "de" : "karlsenmagsyncd",
+  "fr" : "karlsenmagsyncd",
+  "id" : "karlsenmagsyncd",
+  "it" : "karlsenmagsyncd",
+  "ja" : "karlsenmagsyncd",
+  "ko" : "karlsenmagsyncd",
+  "pt_BR" : "karlsenmagsyncd",
+  "zh" : "karlsenmagsyncd",
   "zh_HANS" : ""
 }, {
   "en" : "Export Wallet Seed File(KPK)",
@@ -1176,15 +1176,15 @@
   "zh" : "备份助记词",
   "zh_HANS" : ""
 }, {
-  "en" : "kvsd0",
-  "de" : "kvsd0",
-  "fr" : "kvsd0",
-  "id" : "kvsd0",
-  "it" : "kvsd0",
-  "ja" : "kvsd0",
-  "ko" : "kvsd0",
-  "pt_BR" : "kvsd0",
-  "zh" : "kvsd0",
+  "en" : "kmsd0",
+  "de" : "kmsd0",
+  "fr" : "kmsd0",
+  "id" : "kmsd0",
+  "it" : "kmsd0",
+  "ja" : "kmsd0",
+  "ko" : "kmsd0",
+  "pt_BR" : "kmsd0",
+  "zh" : "kmsd0",
   "zh_HANS" : ""
 }, {
   "en" : "Yes delete data folder and resync",
@@ -1572,15 +1572,15 @@
   "zh" : "选择相机",
   "zh_HANS" : ""
 }, {
-  "en" : "KVSD0",
-  "de" : "KVSD0",
-  "fr" : "KVSD0",
-  "id" : "KVSD0",
-  "it" : "KVSD0",
-  "ja" : "KVSD0",
-  "ko" : "KVSD0",
-  "pt_BR" : "KVSD0",
-  "zh" : "KVSD0",
+  "en" : "KMSD0",
+  "de" : "KMSD0",
+  "fr" : "KMSD0",
+  "id" : "KMSD0",
+  "it" : "KMSD0",
+  "ja" : "KMSD0",
+  "ko" : "KMSD0",
+  "pt_BR" : "KMSD0",
+  "zh" : "KMSD0",
   "zh_HANS" : ""
 }, {
   "en" : "HOME",
@@ -1594,15 +1594,15 @@
   "zh" : "概要",
   "zh_HANS" : ""
 }, {
-  "en" : "KARLSENRAKSYNCD",
-  "de" : "KARLSENRAKSYNCD",
-  "fr" : "KARLSENRAKSYNCD",
-  "id" : "KARLSENRAKSYNCD",
-  "it" : "KARLSENRAKSYNCD",
-  "ja" : "KARLSENRAKSYNCD",
-  "ko" : "KARLSENRAKSYNCD",
-  "pt_BR" : "SINCRONISARKARLSENRAK",
-  "zh" : "KARLSENRAKSYNCD",
+  "en" : "KARLSENMAGSYNCD",
+  "de" : "KARLSENMAGSYNCD",
+  "fr" : "KARLSENMAGSYNCD",
+  "id" : "KARLSENMAGSYNCD",
+  "it" : "KARLSENMAGSYNCD",
+  "ja" : "KARLSENMAGSYNCD",
+  "ko" : "KARLSENMAGSYNCD",
+  "pt_BR" : "SINCRONISARKARLSENMAG",
+  "zh" : "KARLSENMAGSYNCD",
   "zh_HANS" : ""
 }, {
   "en" : "Use latest Change address",
@@ -2089,15 +2089,15 @@
   "zh" : "高级",
   "zh_HANS" : ""
 }, {
-  "en" : "Data Folder location is used for storage by all KDX modules. In default configuration this includes Karlsend blockchain data and Karlsenrak API database. This location also contains process log files.",
-  "de" : "Das Datenverzeichnis wird von allen KDX Modulen als Speicherort genutzt. In der Standardkonfiguration enthält es die Karlsen Blockchain Daten und die Karlsenrak API Datenbank. Dieser Speicherort enthält auch Logs/Protokolle.",
-  "fr" : "Le dossier de configuration contient tous les modules KDX. La configuration par défaut contient les données de la blockchain Karlsend et la base de donnée de l'API Karlsenrak. Cette localisation peut également contenir des fichiers de logs.",
-  "id" : "Lokasi Folder Data digunakan untuk penyimpanan oleh semua modul KDX. Dalam konfigurasi default, ini mencakup data blockchain Karlsend dan basis data API Karlsenrak. Lokasi ini juga berisi file log proses.",
-  "it" : "Il percorso della cartella dati viene utilizzata da tutti i moduli KDX per l'archiviazione. Nella configurazione predefinita, sono inclusi i dati della blockchain di Karlsend e il database dell'API Karlsenrak. Questa cartella contiene anche i file di log del processo.",
-  "ja" : "データフォルダーの場所は、すべてのKDXモジュールによるストレージに使用されます。 デフォルトの構成では、これにはKarlsendブロックチェーンデータとKarlsenrak APIデータベースが含まれます。 この場所には、プロセスログファイルも含まれます。",
-  "ko" : "데이터 폴더는 모든 KDX 모듈스토리지에 사용됩니다. 기본 구성에서는 Karlsend 블록체인 데이터와 Karlsenrak API 데이터베이스가 포함됩니다. 이 위치에는 프로세스 로그 파일도 포함됩니다.",
-  "pt_BR" : "A localização da Pasta de Dados é usada para armazenamento por todos os módulos KDX. Na configuração padrão, isso inclui os dados da blockchain do Karlsend e o banco de dados da API do Karlsenrak. Essa localização também contém arquivos de log de processos.",
-  "zh" : "数据文件夹位置用于存储所有的KDX模块。在默认配置中，这包括Karlsend区块链数据和Karlsenrak API数据库。此位置还包含进程日志文件。",
+  "en" : "Data Folder location is used for storage by all KDX modules. In default configuration this includes Karlsend blockchain data and Karlsenmag API database. This location also contains process log files.",
+  "de" : "Das Datenverzeichnis wird von allen KDX Modulen als Speicherort genutzt. In der Standardkonfiguration enthält es die Karlsen Blockchain Daten und die Karlsenmag API Datenbank. Dieser Speicherort enthält auch Logs/Protokolle.",
+  "fr" : "Le dossier de configuration contient tous les modules KDX. La configuration par défaut contient les données de la blockchain Karlsend et la base de donnée de l'API Karlsenmag. Cette localisation peut également contenir des fichiers de logs.",
+  "id" : "Lokasi Folder Data digunakan untuk penyimpanan oleh semua modul KDX. Dalam konfigurasi default, ini mencakup data blockchain Karlsend dan basis data API Karlsenmag. Lokasi ini juga berisi file log proses.",
+  "it" : "Il percorso della cartella dati viene utilizzata da tutti i moduli KDX per l'archiviazione. Nella configurazione predefinita, sono inclusi i dati della blockchain di Karlsend e il database dell'API Karlsenmag. Questa cartella contiene anche i file di log del processo.",
+  "ja" : "データフォルダーの場所は、すべてのKDXモジュールによるストレージに使用されます。 デフォルトの構成では、これにはKarlsendブロックチェーンデータとKarlsenmag APIデータベースが含まれます。 この場所には、プロセスログファイルも含まれます。",
+  "ko" : "데이터 폴더는 모든 KDX 모듈스토리지에 사용됩니다. 기본 구성에서는 Karlsend 블록체인 데이터와 Karlsenmag API 데이터베이스가 포함됩니다. 이 위치에는 프로세스 로그 파일도 포함됩니다.",
+  "pt_BR" : "A localização da Pasta de Dados é usada para armazenamento por todos os módulos KDX. Na configuração padrão, isso inclui os dados da blockchain do Karlsend e o banco de dados da API do Karlsenmag. Essa localização também contém arquivos de log de processos.",
+  "zh" : "数据文件夹位置用于存储所有的KDX模块。在默认配置中，这包括Karlsend区块链数据和Karlsenmag API数据库。此位置还包含进程日志文件。",
   "zh_HANS" : ""
 }, {
   "en" : "Cancel",
