@@ -24,6 +24,7 @@
     "@aspectron/flow-router": "*",
     "@aspectron/flow-utils": "*",
     "@aspectron/flow-ux": "file:../node-flow-ux",
+    "@grpc/grpc-js": "*",
     "@karlsen/core-lib": "file:../node-karlsen-core-lib",
     "@karlsen/grpc": "file:../node-karlsen-grpc",
     "@karlsen/grpc-node": "file:../node-karlsen-grpc-node",
