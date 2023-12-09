@@ -9,13 +9,13 @@
 
 	<link rel="manifest" href="/manifest.json">
 	<meta name="description" content="Karlsen Wallet">
-	<meta name="keywords" content="kaspa kaspanet wallet crypto currency kaspanet dag">
+	<meta name="keywords" content="karlsen karlsennet wallet crypto currency karlsennet dag">
 
 	<meta property="og:title" content="Karlsen Wallet" />
-	<meta property="og:description" content="Online Wallet for Kaspa Cryptocurrency">
+	<meta property="og:description" content="Online Wallet for Karlsen Cryptocurrency">
 	<meta property="og:type" content="website" />
-	<meta property="og:url" content="https://wallet.kaspanet.io" />
-	<meta property="og:image" content="https://wallet.kaspanet.io/resources/images/logo/kaspa-192x192-white.png" />
+	<meta property="og:url" content="https://wallet.karlsencoin.com" />
+	<meta property="og:image" content="https://wallet.karlsencoin.com/resources/images/logo/karlsen-192x192-white.png" />
 
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-status-bar-style" content="default">
@@ -42,7 +42,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="/flow/flow-ux/resources/css/reset.css" />
 	<link rel="stylesheet" type="text/css" href="/flow/flow-ux/flow-ux.css" />
-	<link rel="stylesheet" type="text/css" href="/kaspa-ux/kaspa-ux.css" />
+	<link rel="stylesheet" type="text/css" href="/karlsen-ux/karlsen-ux.css" />
 	<link rel="stylesheet" type="text/css" href="/style/main.css" />
 	<script src="/sockjs/sockjs.js"></script>
 	<script type="text/javascript">
@@ -57,8 +57,8 @@
 				}
 			}
 		}
-		var KaspaConfig = {
-			baseUrl:"/kaspa-ux",
+		var KarlsenConfig = {
+			baseUrl:"/karlsen-ux",
 			ident:"karlsen:ident"
 		}
 		if ('serviceWorker' in navigator) {
@@ -85,8 +85,8 @@
 	<script type="module" src="/dist/wallet-app.js"></script>
 	<!--script type="module" src="/flow/flow-ux/flow-ux.js"></script-->
 	<!--script type="module">
-		//import {RPC} from '/@kaspa/grpc-web/dist/index.js';
-		import {RPC} from '/@kaspa/grpc-web/dist/lib/rpc.js';
+		//import {RPC} from '/@karlsen/grpc-web/dist/index.js';
+		import {RPC} from '/@karlsen/grpc-web/dist/lib/rpc.js';
 		let rpc  = new RPC({clientConfig:{path:"/rpc"}})
 		console.log("RPC", rpc);
 		let test = async()=>{
@@ -113,9 +113,9 @@
 	<svg style="display:none">
 		<use href="/fonts/fontawesome/sprites/light.svg#home" />
 	</svg>
-	<kaspa-wallet-app></kaspa-wallet-app>
-	<flow-add-to-home icon="/resources/images/kaspa.png"
-		message="Add Kaspa wallet App to Home screen"></flow-add-to-home>
+	<karlsen-wallet-app></karlsen-wallet-app>
+	<flow-add-to-home icon="/resources/images/karlsen.png"
+		message="Add Karlsen wallet App to Home screen"></flow-add-to-home>
 	<!--flow-qrcode-scanner></flow-qrcode-scanner-->
 	<!--video id="live" width="320" height="240" autoplay style="border:5px solid #000000; display:none;"> </video>
 	<canvas id="canvas" style="border:5px solid #000000"> </canvas>

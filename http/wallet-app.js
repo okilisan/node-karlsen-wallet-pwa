@@ -1,16 +1,16 @@
-import {RPC} from '/@kaspa/grpc-web';
+import {RPC} from '/@karlsen/grpc-web';
 //console.log("PWA", window.PWA)
 //console.log("RPC", RPC)
 import '/style/style.js';
 import {
 	dpc, html, css, FlowApp, BaseElement, i18n
 } from '/flow/flow-ux/flow-ux.js';
-import {isMobile} from '/@kaspa/ux/kaspa-ux.js';
-export * from '/@kaspa/ux/kaspa-ux.js';
+import {isMobile} from '/@karlsen/ux/karlsen-ux.js';
+export * from '/@karlsen/ux/karlsen-ux.js';
 
 window.__testI18n = (test)=>i18n.setTesting(!!test);
 
-class KaspaWalletHeader extends BaseElement{
+class KarlsenWalletHeader extends BaseElement{
 	static get styles(){
 		return css`
 			:host{display:block}
@@ -19,7 +19,7 @@ class KaspaWalletHeader extends BaseElement{
 			}
 			.logo{
 				height:30px;width:30px;/*background-color:#DDD;*/
-				background:no-repeat url('/resources/images/kaspa.png') center;
+				background:no-repeat url('/resources/images/karlsen.png') center;
 				background-size:contain;
 			}
 			.flex{flex:1}
@@ -36,9 +36,9 @@ class KaspaWalletHeader extends BaseElement{
 		`
 	}
 }
-KaspaWalletHeader.define("kaspa-wallet-header")
+KarlsenWalletHeader.define("karlsen-wallet-header")
 
-class KaspaWalletApp extends FlowApp {
+class KarlsenWalletApp extends FlowApp {
 
 	static get properties(){
 		return {
@@ -52,9 +52,7 @@ class KaspaWalletApp extends FlowApp {
 	constructor(){
 		super();
 
-		//this.networks = ['kaspa','kaspatest','kaspadev','kaspasim'];
-		//this.network = "kaspa";
-		this.networks = ['karlsen','kaspatest','kaspadev','kaspasim'];
+		this.networks = ['karlsen','karlsentest','karlsendev','karlsensim'];
 		this.network = "karlsen";
 		this.addresses = {};
 		this.available = {};
@@ -62,11 +60,10 @@ class KaspaWalletApp extends FlowApp {
 		this.opt = {};
 
 		this.aliases = {
-			//kaspa : 'MAINNET',
 			karlsen : 'MAINNET',
-			kaspatest : 'TESTNET',
-			kaspadev : 'DEVNET',
-			kaspasim : 'SIMNET'
+			karlsentest : 'TESTNET',
+			karlsendev : 'DEVNET',
+			karlsensim : 'SIMNET'
 		}
 
 		this.initLog();
@@ -172,8 +169,8 @@ class KaspaWalletApp extends FlowApp {
 		let meta = {"generator":"pwa"}
 
 		return html`
-		${isMobile?'':html`<!--kaspa-wallet-header></kaspa-wallet-header-->`}
-		<kaspa-wallet .walletMeta='${meta}' reloadonlock="true" hidefaucet="true"></kaspa-wallet>
+		${isMobile?'':html`<!--karlsen-wallet-header></karlsen-wallet-header-->`}
+		<karlsen-wallet .walletMeta='${meta}' reloadonlock="true" hidefaucet="true"></karlsen-wallet>
 		`
 	}
 
@@ -185,7 +182,7 @@ class KaspaWalletApp extends FlowApp {
 	firstUpdated(){
 		super.firstUpdated();
 		console.log("app: firstUpdated")
-		this.wallet = this.renderRoot.querySelector("kaspa-wallet");
+		this.wallet = this.renderRoot.querySelector("karlsen-wallet");
 		//console.log("this.wallet", this.wallet)
 		let verbose = localStorage.rpcverbose == 1;
 		this.wallet.setRPCBuilder(()=>{
@@ -198,4 +195,4 @@ class KaspaWalletApp extends FlowApp {
 
 }
 
-KaspaWalletApp.define("kaspa-wallet-app");
+KarlsenWalletApp.define("karlsen-wallet-app");

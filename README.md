@@ -1,1 +1,1 @@
-# kaspa-wallet-pwa
+# karlsen-wallet-pwa
