@@ -24,7 +24,7 @@
     "@aspectron/flow-router": "*",
     "@aspectron/flow-utils": "*",
     "@grpc/grpc-js": "*",
-    "@karlsen/flow-ux": "1.1.1",
+    "@karlsen/flow-ux": "1.1.2",
     "@karlsen/grpc": ">=1.4.0",
     "@karlsen/grpc-node": ">=1.0.8",
     "@karlsen/grpc-web": ">=1.0.2",
