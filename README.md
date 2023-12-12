@@ -9,8 +9,9 @@ npm install -g @karlsen/wallet-pwa
 ## Cloning karlsen-wallet-pwa
 
 ```
-git clone git@github.com:karlsen-network/node-karlsen-wallet-pwa
-cd node-flow-ux
+git clone https://github.com/karlsen-network/node-karlsen-wallet-pwa
+git clone https://github.com/karlsen-network/node-karlsen-ux
+cd node-karlsen-wallet-pwa
 npm install
 ```
 
