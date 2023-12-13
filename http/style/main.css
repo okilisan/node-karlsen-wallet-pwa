@@ -1,10 +1,10 @@
 body{
-	--kaspa-wallet-top-menu-top:10px;
-	--kaspa-wallet-right-area-height:calc(100vh - 80px);
+	--karlsen-wallet-top-menu-top:10px;
+	--karlsen-wallet-right-area-height:calc(100vh - 80px);
 }
-kaspa-wallet-app{
+karlsen-wallet-app{
 	flex:1;overflow:hidden;position:fixed;
 	top:0px;bottom:0px;height:100%;width:100%;left:0px;right:0px;box-sizing:border-box;
 	display:flex;flex-direction:column;
 }
-kaspa-wallet{flex:1;height:100px}
+karlsen-wallet{flex:1;height:100px}

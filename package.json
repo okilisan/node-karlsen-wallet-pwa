@@ -1,29 +1,36 @@
 {
-  "name": "@kaspa/wallet-pwa",
+  "name": "@karlsen/wallet-pwa",
   "version": "1.1.37",
   "codename": "",
-  "description": "Kaspa Wallet PWA",
+  "description": "Karlsen Wallet PWA",
   "main": "pwa.js",
   "scripts": {
     "prepare": "npx webpack",
     "prepublishOnly": "rm -rf ./dist && rm -f package-lock.json && npm install --also=dev",
     "startserver": "node pwa.js --grpc 127.0.0.1:42110 --mainnet --debug --verbose --host 0.0.0.0"
   },
-  "author": "ASPECTRON Inc.",
+  "authors": [
+    {
+      "name": "ASPECTRON Inc."
+    },
+    {
+      "name": "Karlsen Developers"
+    }
+  ],
   "license": "ISC",
   "dependencies": {
     "@aspectron/flow-grpc-web": ">=0.0.7",
     "@aspectron/flow-http": ">=0.2.19",
     "@aspectron/flow-router": "*",
     "@aspectron/flow-utils": "*",
-    "@aspectron/flow-ux": "file:../node-flow-ux",
-    "@kaspa/core-lib": "file:../node-karlsen-core-lib",
-    "@kaspa/grpc": ">=1.4.0",
-    "@kaspa/grpc-node": ">=1.0.8",
-    "@kaspa/grpc-web": ">=1.0.2",
-    "@kaspa/ux": "file:../node-karlsen-ux",
-    "@kaspa/wallet": "file:../node-karlsen-wallet",
-    "@kaspa/wallet-worker": "file:../node-karlsen-wallet-worker",
+    "@grpc/grpc-js": "*",
+    "@karlsen/flow-ux": "1.1.2",
+    "@karlsen/grpc": ">=1.4.0",
+    "@karlsen/grpc-node": ">=1.0.8",
+    "@karlsen/grpc-web": ">=1.0.2",
+    "@karlsen/ux": "file:../node-karlsen-ux",
+    "@karlsen/wallet": ">=1.4.26",
+    "@karlsen/wallet-worker": ">=1.1.25",
     "@webcomponents/webcomponentsjs": "2.6.0",
     "buffer": "6.0.3",
     "cloudflare": "2.9.1",

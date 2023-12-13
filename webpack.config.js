@@ -12,33 +12,33 @@ let watch = false;
 console.log("MODE:", mode)
 module.exports = {
   entry: {
-    //'kaspa-wallet-worker': './http/kaspa-wallet-worker.js',
-    //'kaspa-wallet':'./http/kaspa-wallet.js'
+    //'karlsen-wallet-worker': './http/karlsen-wallet-worker.js',
+    //'karlsen-wallet':'./http/karlsen-wallet.js'
     'wallet-app': './http/wallet-app.js',
-    'kaspa-wallet-worker-core': './http/kaspa-wallet-worker-core.js'
+    'karlsen-wallet-worker-core': './http/karlsen-wallet-worker-core.js'
   },
   mode,
   watch,
   /*externals_:{
     "/style/style___.js": "/style/style.js",
     "/flow/flow-ux/flow-ux.js": "/flow/flow-ux/flow-ux.js",
-    "/kaspa-ux/kaspa-ux.js": "/kaspa-ux/kaspa-ux.js"
+    "/karlsen-ux/karlsen-ux.js": "/karlsen-ux/karlsen-ux.js"
   },*/
   resolve: {
     //importsFields: ["browser"],
     //aliasFields: ['browser'],
     alias:{
       "/style/style.js": "/http/style/style.js",
-      "/flow/flow-ux/flow-ux.js": path.join(root, "node_modules/@aspectron/flow-ux/flow-ux.js"),
-      "/flow/flow-ux/src/flow-format.js": path.join(root, "node_modules/@aspectron/flow-ux/src/flow-format.js"),
-      "/flow/flow-ux/src/base-element.js": path.join(root, "node_modules/@aspectron/flow-ux/src/base-element.js"),
-      "/flow/flow-ux/src/flow-swipeable.js": path.join(root, "node_modules/@aspectron/flow-ux/src/flow-swipeable.js"),
-      "/flow/flow-ux/src/flow-i18n.js": path.join(root, "node_modules/@aspectron/flow-ux/src/flow-i18n.js"),
-      "/@kaspa/ux/kaspa-ux.js": path.join(root, "node_modules/@kaspa/ux/kaspa-ux.js"),
-      "/@kaspa/grpc-web": path.join(root, "./node_modules/@kaspa/grpc-web"),
+      "/flow/flow-ux/flow-ux.js": path.join(root, "node_modules/@karlsen/flow-ux/flow-ux.js"),
+      "/flow/flow-ux/src/flow-format.js": path.join(root, "node_modules/@karlsen/flow-ux/src/flow-format.js"),
+      "/flow/flow-ux/src/base-element.js": path.join(root, "node_modules/@karlsen/flow-ux/src/base-element.js"),
+      "/flow/flow-ux/src/flow-swipeable.js": path.join(root, "node_modules/@karlsen/flow-ux/src/flow-swipeable.js"),
+      "/flow/flow-ux/src/flow-i18n.js": path.join(root, "node_modules/@karlsen/flow-ux/src/flow-i18n.js"),
+      "/@karlsen/ux/karlsen-ux.js": path.join(root, "node_modules/@karlsen/ux/karlsen-ux.js"),
+      "/@karlsen/grpc-web": path.join(root, "./node_modules/@karlsen/grpc-web"),
       "@aspectron/flow-grpc-web": path.join(root, "./node_modules/@aspectron/flow-grpc-web"),
-      //"kaspa-wallet-worker": "../kaspa-wallet-worker",
-      //"/kaspa-wallet-worker/kaspa-wallet-worker.js": "../kaspa-wallet-worker/kaspa-wallet-worker.js"
+      //"karlsen-wallet-worker": "../karlsen-wallet-worker",
+      //"/karlsen-wallet-worker/karlsen-wallet-worker.js": "../karlsen-wallet-worker/karlsen-wallet-worker.js"
     },
   	fallback: {
   		"path": false,
@@ -52,7 +52,7 @@ module.exports = {
       "stream": require.resolve("stream-browserify"),
       "os": false,
       "nw.gui": false,
-      "@kaspa/wallet-worker": require.resolve("./node_modules/@kaspa/wallet-worker")
+      "@karlsen/wallet-worker": require.resolve("./node_modules/@karlsen/wallet-worker")
   	}
   },
   output: {
